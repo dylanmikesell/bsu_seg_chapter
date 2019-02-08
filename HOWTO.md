@@ -82,8 +82,25 @@
   $ git commit -m "message"
   ```
 
-* Push your committed work online,
+* Push your committed work online
 
   ```
   $ git push origin master
   ```
+  
+### Stay up to date with master branch  
+
+
+* Add remote from original repository in your forked repository
+
+	```
+    cd seg-bsu/bsu_seg_chapter/
+    git remote add upstream git://github.com/dylanmikesell/bsu_seg_chapter.git
+    git fetch upstream
+   ``` 
+
+* Updating your fork from original repo to keep up with their changes:
+
+	```
+    git pull upstream master
+   ```
