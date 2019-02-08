@@ -1,7 +1,7 @@
 
-#How to get started
+# How to get started
 
-###Github
+### Github
 
 * Fork the master repository to your personal github account.
 
@@ -23,7 +23,7 @@
   $ clone https://github.com/[your-github-name]/bsu_seg_chapter.git
   ```
 
-###Python
+### Python
 
 * Make sure you have Python 3.7. You can update by,
 
@@ -36,7 +36,7 @@
 	* click on 'Create',
 	* choose Python 3.7 and a name.
 
-###Write some code
+### Write some code
 
 * Go back to your working folder, for example:
 
@@ -62,7 +62,7 @@
   ```
   seg-bsu/bsu_seg_chapter/[specific package]/[name of notebook]
   ```
-###Github again
+### Github again
 
 * Go back to
 
