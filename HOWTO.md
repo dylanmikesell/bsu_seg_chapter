@@ -68,7 +68,7 @@
   seg-bsu/bsu_seg_chapter/[specific package]/[name of notebook]
   ```
 
-### Github again (add work - to your branch)
+### Github (add work - to your branch)
 
 * Go back to
 
@@ -93,6 +93,17 @@
   ```
   $ git push origin master
   ```
+  
+### Github (merge with master)
+
+* Go to your Github repo webpage
+
+```
+  https://github.com/[your-github-name]/bsu_seg_chapter
+```
+
+* Click *New pull request*
+* Engage in a chat with the master
   
 ### Stay up to date with master branch  
 
