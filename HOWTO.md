@@ -1,9 +1,9 @@
 
 # How to get started
 
-### Github
+### Github (get exsiting work)
 
-* Fork the master repository to your personal github account.
+* Fork the master repository to your personal github account. You can do this by clicking the button *Fork* in the Master repo website.
 
 	Master repository: 
 
@@ -20,7 +20,7 @@
 * Clone your own fork to your personal computer:
 
   ```
-  $ clone https://github.com/[your-github-name]/bsu_seg_chapter.git
+  $ git clone https://github.com/[your-github-name]/bsu_seg_chapter.git
   ```
 
 ### Python
@@ -35,6 +35,11 @@
 	* click on 'Environments',
 	* click on 'Create',
 	* choose Python 3.7 and a name.
+* Command line version:
+
+	```
+	$ conda create -n [name] python=3.7 anaconda
+	```
 
 ### Write some code
 
@@ -62,7 +67,8 @@
   ```
   seg-bsu/bsu_seg_chapter/[specific package]/[name of notebook]
   ```
-### Github again
+
+### Github (add work - to your branch)
 
 * Go back to
 
@@ -88,19 +94,30 @@
   $ git push origin master
   ```
   
+### Github (merge with master)
+
+* Go to your Github repo webpage
+
+```
+  https://github.com/[your-github-name]/bsu_seg_chapter
+```
+
+* Click *New pull request*
+* Engage in a chat with the master
+  
 ### Stay up to date with master branch  
 
 
 * Add remote from original repository in your forked repository
 
 	```
-    cd seg-bsu/bsu_seg_chapter/
-    git remote add upstream git://github.com/dylanmikesell/bsu_seg_chapter.git
-    git fetch upstream
+    $ cd seg-bsu/bsu_seg_chapter/
+    $ git remote add upstream git://github.com/dylanmikesell/bsu_seg_chapter.git
    ``` 
 
 * Updating your fork from original repo to keep up with their changes:
 
 	```
-    git pull upstream master
+	$ git fetch upstream
+    $ git pull upstream master
    ```
